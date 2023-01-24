@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.prakarsh</groupId>
-	<artifactId>movies</artifactId>
+	<artifactId>moviesAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>movies</name>
 	<description>API and movies</description>
