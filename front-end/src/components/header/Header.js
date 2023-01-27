@@ -1,19 +1,20 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faVideoSlash } from '@fortawesome/free-solid-svg-icons'
+import { faVideo } from '@fortawesome/free-solid-svg-icons'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import { NavLink } from 'react-router-dom'
+import './Header.css'
 
 const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid>
         <Navbar.Brand href="/" style={{ color: 'gold' }}>
-          <FontAwesomeIcon icon={faVideoSlash} />
-          Ripe Mangoes
+          <FontAwesomeIcon icon={faVideo} className="video-icon-title" /> Ripe
+          Mangoes
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
