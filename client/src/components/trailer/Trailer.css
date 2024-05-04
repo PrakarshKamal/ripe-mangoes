@@ -1,0 +1,16 @@
+.movie-player-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.watchlist-button {
+  cursor: pointer;
+  transition: 0.3s;
+}
