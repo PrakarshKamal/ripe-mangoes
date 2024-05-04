@@ -48,18 +48,6 @@ Since the login and registration is implemented in a dummy manner, here are some
 
 | Email | Password |
 
-| ------------------ | -------- |
-
-| `jack@gmail.com` | `rEct5u` |
-
-| `tom@gmail.com` | `UYpVnX` |
-
-| `alice@gmail.com` | `Bk84tD` |
-
-| `kaylee@gmail.com` | `ht2KBj` |
-
-| `caleb@gmail.com` | `GWPAUF` |
-
 _These can also be found in_ `client/src/components/user/Login.js`
 
 For Registration, you just have to add a valid email format eg. `abc@xyz` and fill out the Password and Confirm Password fields. Then clicking `Create your account` will take you to the home page. _(This user will not be saved)_.

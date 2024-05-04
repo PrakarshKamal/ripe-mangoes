@@ -9,13 +9,7 @@ const Login = ({ isLoggedIn, setIsLoggedIn }) => {
   const [password, setPassword] = useState("");
 
   // Array of dummy test users
-  const users = [
-    { email: "jack@gmail.com", password: "rEct5u" },
-    { email: "tom@gmail.com", password: "UYpVnX" },
-    { email: "alice@gmail.com", password: "Bk84tD" },
-    { email: "kaylee@gmail.com", password: "ht2KBj" },
-    { email: "caleb@gmail.com", password: "GWPAUF" },
-  ];
+  const users = [];
 
   const navigate = useNavigate();
 
